@@ -1,0 +1,95 @@
+body {
+    background-color:rgba(255, 166, 0, 0.577);} 
+@import url(https://fonts.google.com/specimen/Anonymous+Pro);
+#heading {
+    color: orange;
+    font-family:'Anonymous Pro', monospace;
+font-size: 70pt;
+text-shadow: -2px 2px white,
+        2px 2px 0 #fd0470,
+       2px -2px 0 #f810af,
+      -3px -3px 0 #f9f104;
+letter-spacing: 4px;
+position: absolute;
+top: -3%;
+left:23%;
+z-index: +7;}
+
+    #orange {
+        position:absolute;
+        top: -6%;
+        left: -2%;
+    min-height: 60%;}
+
+#orange-two {
+position:absolute;
+top: 53%;
+left: 74%;
+rotate: 1450deg;
+min-height: 60%;}
+#orange-right-corner {
+position:absolute;
+top: -14%;
+left: 74%;
+rotate: -60deg;
+min-height: 60%;}
+#orange-bottom-left {
+position:absolute;
+top: 54%;
+left: -2%;
+rotate: -60deg;
+min-height: 60%;}
+
+#sidebar {
+    position: absolute;
+    width: 240px;
+    height: 88%;
+    background: orange;
+    left:-300px;
+    transition: .4s;
+    z-index: +20;
+}
+#sidebar ul li {
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 24px; 
+}
+#sidebar.active {
+    left: 0;
+}
+
+#sidebar .toggle-btn {
+    position: absolute; 
+    top: 30px;
+    left: 330px;
+}
+.toggle-btn span {
+width: 45px;
+height: 4px;
+background: white;
+display: block;
+margin-top:5px;}
+
+@import url(https://fonts.google.com/specimen/Anonymous+Pro);
+p {margin-top: 0;}
+    .column {
+    columns: 370px 2;
+    column-gap: 3em;
+    position: absolute;
+    top: 35%;
+    left: 28%;
+}
+#subheading-title {
+            
+    color: white;
+    font-family: 'Anonymous Pro', monospace;
+    top: 18%;
+    left: 36%;
+    font-size: 15pt;
+    position: absolute;
+min-width: 100%;
+z-index:+7;}
+a:visited {
+    color:#f810af
+}

@@ -1,0 +1,408 @@
+#sidebar {
+    position: absolute;
+    width: 240px;
+    height: 88%;
+    background: orange;
+    left:-300px;
+    transition: .4s;
+    z-index: +20;
+}
+#sidebar ul li {
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 24px; 
+}
+#sidebar.active {
+    left: 0;
+}
+
+#sidebar .toggle-btn {
+    position: absolute; 
+    top: 30px;
+    left: 330px;
+}
+.toggle-btn span {
+width: 45px;
+height: 4px;
+background: white;
+display: block;
+margin-top:5px;}
+
+header {
+    background-color: rgba(255, 170, 0, 0.832); 
+    height: 4%;
+    width: 100%;
+opacity: 90%; }
+.subheading {background-color:  rgba(226, 167, 5, 0.603);
+        height: 28%;
+z-index: 5;}
+
+.featured-books { 
+    background-color:rgba(243, 139, 3, 0.938);
+    box-sizing: border-box;
+    height: 60vh; /* vh set the height 80% of the view port*/ 
+}
+
+
+.new-releases {
+    box-sizing: border-box;
+        background-color: rgba(254, 149, 36, 0.679);
+        min-height: 60%; 
+        display: grid; 
+        grid-template-columns: 20% 20% 20% 20% 20%;}
+        .releases{ 
+            border: 1px dotted white; 
+            height: 100%; }
+
+.second-box { background-color:rgba(254, 149, 36, 0.679);
+              opacity: 100%;
+              border: 1px dotted white; 
+              height: 100%; }
+        
+.third-box {
+            background-color:rgba(254, 149, 36, 0.679);
+            opacity: 100%;}
+.fourth-box { background-color:rgba(254, 149, 36, 0.679);
+    opacity: 100%;}
+.fifth-box { background-color:rgba(254, 149, 36, 0.679);
+    opacity: 100%;}
+
+footer {
+text-align: left;
+padding: 13px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color:orange;
+font-size: small;
+color: white; }
+
+a:visited {
+    color: yellow;
+}
+
+.column {
+    float: left;
+    position: relative;
+    left: 65%;
+    width: 10%;
+    padding: 19px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;}
+  }
+  #dotted {
+    border-top: 0.5px solid white;
+    width: 4%;
+    rotate: 180deg;
+    position: absolute;
+    left: 80.5%;
+    top: 80%;
+  }
+#dotted-2 {
+    border-top: 0.5px solid white;
+    width: 11%;
+    rotate: 150deg;
+    position: absolute;
+    left: 74%;
+    top: 47%;
+}
+#dotted-3 {
+    border-top: 0.5px solid white;
+    width: 2.5%;
+    rotate: 180deg;
+    position: absolute;
+    left: 20%;
+    top: 51%;
+}
+#map{
+    position: absolute;
+    top: 31.5%;
+    left: 19%;
+min-width: 68%;}
+
+#map:hover {
+    animation: bounce 0.5s;
+    animation-iteration-count: infinite;}
+    @keyframes bounce {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-50px); }
+        100% { transform: translateY(0); }
+      }
+#zauner {
+    position: absolute;
+    max-width: 4%;
+    left: 72%;
+    top:49%;
+}
+#parker {
+    position: absolute;
+    max-width: 4%;
+    left: 72%;
+    top:80%;
+}
+#fatima {
+    position: absolute;
+    max-width: 4%;
+    left: 22%;
+    top:48%;
+}
+#kazuo {
+    position: absolute;
+    max-width: 4%;
+    left: 77%;
+    top:45%;
+}
+#phan {
+    position: absolute;
+    max-width: 10%;
+    left: 67%;
+    top:50%;
+}
+#tan {
+    position: absolute;
+    max-width: 10%;
+    left: 68%;
+    top:60%;
+}
+
+#sathnam {
+    position: absolute;
+    max-width: 4%;
+    left: 50%;
+    top:43%;
+}
+#jhumpa {
+    position: absolute;
+    max-width: 10%;
+    left: 50%;
+    top:33%;
+}
+#hari {
+    position: absolute;
+    max-width: 11%;
+    left: 41%;
+    top:33%;
+}
+#ali {
+    position: absolute;
+    max-width: 4%;
+    left: 66%;
+    top:60%;
+}
+#witi {
+    position: absolute;
+    max-width: 4%;
+    left: 82%;
+    top:83%;
+}
+#koh {
+    position: absolute;
+    max-width:10%;
+    left: 74%;
+    top: 70%
+}
+#patrick {
+    position: absolute;
+    max-width: 10%;
+    left: 26%;
+    top:33%;
+}
+#mata {
+    position: absolute;
+    max-width: 10%;
+    left: 30%;
+    top:63%;
+}
+#maptitle {
+    color:white;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 11pt;
+    rotate: -90deg;
+    position: absolute;
+    left:-10%;
+    top:60%;
+}
+#smile-flower {
+            position: absolute;
+            top: 15%;
+            max-height: 20%;
+            left: 18%;
+            rotate: -180deg;
+        z-index: 2;}
+#smile-flower-two {
+            position: absolute;
+            top: -4%;
+            max-height: 35%;
+            left: 1%;
+            rotate: 45deg;
+        z-index: 2;}
+#smile-flower-three {
+                position: absolute;
+                top: 4%;
+                max-height: 35%;
+                left: 88%;
+                rotate: -180deg;
+            z-index: 2;}
+#smile-flower-four {
+                position: absolute;
+                top: 4%;
+                max-height: 20%;
+                left: 80%;
+                rotate: -50deg;
+            z-index: 2;}
+#book-pink {
+            position: absolute;
+            top: 5%;
+            left: 80%;
+            max-height: 30%;
+        rotate: 30deg;}
+#book-pink-two {
+            position: absolute;
+            top: 6%;
+            left: 8%;
+            max-height: 30%;
+        rotate: 30deg;}
+
+@import url(https://fonts.google.com/specimen/Anonymous+Pro);
+
+#heading {
+    color: orange;
+    font-family:'Anonymous Pro', monospace;
+    font-size: 70pt;
+    text-shadow: -2px 2px white,
+            2px 2px 0 #fd0470,
+           2px -2px 0 #f810af,
+          -3px -3px 0 #f9f104;
+    letter-spacing: 4px;
+    position: absolute;
+top: -3%;
+left:28%;
+z-index: +7;}
+#subheading-title {
+            
+    color: white;
+    font-family: 'Anonymous Pro', monospace;
+    top: 24%;
+    left: 28%;
+    font-size: 15pt;
+    position: absolute;
+min-width: 100%;
+z-index:+7;}
+
+#little{
+    position: absolute;
+    top: 100%;
+    left: 48px;
+    max-height: 44%;
+    box-shadow: 3px 3px 20px white;
+    z-index: 90;}
+#little:hover {
+        animation: bounce 0.5s;
+        animation-iteration-count: infinite;}
+        @keyframes bounce {
+            0%   { transform: translateY(0); }
+            50%  { transform: translateY(-50px); }
+            100% { transform: translateY(0); }
+          }
+#beasts-bio {
+    color: white;
+    font-family: 'Anonymous Pro', monospace;
+    top: 144%;
+    left: 8.5%;
+    font-size: 7pt;
+    position: absolute;}
+#mother {
+        position: absolute;
+        top: 100%;
+        left: 23.5%;
+        max-height: 44%;
+        box-shadow: 3px 3px 20px white;
+    z-index: 90;}
+    #mother:hover {
+        animation: bounce 0.5s;
+        animation-iteration-count: infinite;}
+        @keyframes bounce {
+            0%   { transform: translateY(0); }
+            50%  { transform: translateY(-50px); }
+            100% { transform: translateY(0); }
+          }
+          #mother-bio {
+            color: white;
+            font-family: 'Anonymous Pro', monospace;
+            top: 144%;
+            left: 28%;
+            font-size: 7pt;
+            position: absolute;}
+#elisa {
+    position: absolute;
+    top: 100%;
+    left: 43%;
+    max-height: 44%;
+    box-shadow: 3px 3px 20px white;
+    z-index:+9;}
+#elisa:hover {
+animation: bounce 0.5s;
+animation-iteration-count: infinite;}
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-50px); }
+    100% { transform: translateY(0); } }
+    
+        #winter-bio {
+            color: white;
+            font-family: 'Anonymous Pro', monospace;
+            top: 144%;
+            left: 48%;
+            font-size: 7pt;
+            position: absolute;}
+#school {
+    position: absolute;
+    top: 100%;
+    left: 62.5%;
+    max-height: 44%;
+    box-shadow: 3px 3px 20px white;
+    z-index:90; }
+    #school:hover {
+        animation: bounce 0.5s;
+        animation-iteration-count: infinite;}
+        @keyframes bounce {
+            0%   { transform: translateY(0); }
+            50%  { transform: translateY(-50px); }
+            100% { transform: translateY(0); } }
+#school-bio {
+color: white;
+font-family: 'Anonymous Pro', monospace;
+top: 144%;
+left: 68%;
+font-size: 7pt;
+position: absolute;}
+#crazy-rich {
+    position: absolute;
+    top: 100%;
+    left: 82%;
+    max-height: 44%;
+    box-shadow: 3px 3px 20px white;
+    z-index: 90;}
+#crazy-rich:hover {
+animation: bounce 0.5s;
+animation-iteration-count: infinite;}
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-50px); }
+    100% { transform: translateY(0); }} 
+#crazy-bio {
+        color: white;
+        font-family: 'Anonymous Pro', monospace;
+        top: 144%;
+        left: 87%;
+        font-size: 7pt;
+        position: absolute;}
+
+

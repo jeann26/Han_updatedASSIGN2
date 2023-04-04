@@ -1,0 +1,142 @@
+body {background-color: rgba(255, 166, 0, 0.577);}
+
+@import url(https://fonts.google.com/specimen/Anonymous+Pro);
+html { 
+    min-height: 100%;
+    overflow: hidden;
+}
+
+body {
+    height:calc (100vh - 8em);
+    padding: 4em;
+    color: orange;
+    font-family:'Anonymous Pro', monospace;
+    text-shadow: 2px 3px 7px rgba(232, 10, 10, 0.241), 
+    0 10px 1px rgba(254, 151, 34, 0.981);
+}
+
+.line {
+    position:absolute;
+    width: 24em;
+    margin: 0 auto;
+    font-size: 800%;
+    left: 28%;
+    top: 23%;
+    z-index: 0;
+    white-space: nowrap;
+    overflow: hidden; transform: translateY(-50%);
+
+}
+
+.anim-typewriter {
+    animation: typewriter 4s steps(50) 1s 1 normal both, 
+    blinkTextCursor 200ms steps(40) infinite normal;
+    animation-timeline: scroll (block nearest); 
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 16em;
+    }    
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(250, 209, 220, 0.253);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+#beasts {min-height: 80%;
+    width: auto;
+    position: fixed;
+    left: 14%;
+    top: 38%;}
+#pachinko {
+    min-height: 80%;
+    width: auto;
+    position: fixed;
+    left: 45%;
+    top: 50%;
+    rotate: -90deg;}
+#time-being {min-height: 70%;
+    width: auto;
+position: fixed;
+left: 45%;
+top: 35%;
+rotate: -90deg;}
+#ocean {
+min-height: 9%;
+width: auto;
+position: fixed;
+left: 9%;
+top: 70%;
+rotate: 90deg;}
+#crazy {
+    min-height: 15%;
+    width: auto;
+    position: fixed;
+    left: 33%;
+    top: 55%;
+    rotate: 0deg;}
+#school {
+    min-height: 70%;
+    width: auto;
+    position: fixed;
+    left: 71%;
+    top: 40%;
+rotate: 12deg;}
+#sock {
+    min-height: 90%;
+    width: auto;
+    position: fixed;
+left: 80%;
+top: 40%;
+rotate: 180deg;}
+
+#beasts:hover {
+    animation: bounce 0.5s;
+    animation-iteration-count: infinite;}
+    
+#orange {
+    min-height: 60%;
+    width: auto;
+    position:absolute;
+    top: -6%;
+    left: -5%;
+z-index: -2;}
+#orange-two {
+     min-height: 60%;
+     width: auto;
+        position:absolute;
+        top: 74%;
+        left: 74%;
+        z-index: -2;
+    rotate: 1450deg;}
+    #orange-right-corner {
+        min-height: 60%;
+        width: auto;
+        position:absolute;
+        top: -14%;
+        left: 74%;
+    rotate: -60deg;
+z-index: -2;}
+    #orange-bottom-left {
+        min-height: 60%;
+        width: auto;
+        position:absolute;
+        top: 70%;
+        left: -2%;
+        z-index: -2;
+    rotate: -60deg;}
+
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-50px); }
+  100% { transform: translateY(0); }
+}
